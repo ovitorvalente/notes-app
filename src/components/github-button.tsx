@@ -8,15 +8,15 @@ export default function GithubButton() {
     <Tooltip.Provider>
       <Tooltip.Root>
         <Tooltip.Trigger asChild>
-          <Button
-            size={"icon"}
-            variant={"outline"}
-            className="size-8 rounded-lg"
-          >
-            <a href="">
+          <a href="https://github.com/euvitordev/notes-app" target="_blank">
+            <Button
+              size={"icon"}
+              variant={"outline"}
+              className="size-8 rounded-lg"
+            >
               <Github size={18} />
-            </a>
-          </Button>
+            </Button>
+          </a>
         </Tooltip.Trigger>
         <Tooltip.Portal>
           <Tooltip.Content
