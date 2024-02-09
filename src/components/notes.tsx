@@ -13,10 +13,12 @@ interface Note {
 
 export default function Notes() {
   const [notes, setNotes] = useState<Note[]>(() => {
-    const notesOnStorage = localStorage.getItem("notes")
+    if (typeof window !== "undefined") {
+      const notesOnStorage = localStorage.getItem("notes")
 
-    if (notesOnStorage) {
-      return JSON.parse(notesOnStorage)
+      if (notesOnStorage) {
+        return JSON.parse(notesOnStorage)
+      }
     }
     return []
   })
