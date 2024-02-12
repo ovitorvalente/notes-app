@@ -22,7 +22,7 @@ export default function NoteCards({ note, onNoteDeleted }: NoteCardProps) {
             {formatDistanceToNow(note.date, { locale: ptBR, addSuffix: true })}
           </span>
           <p className="text-sm leading-6 text-foreground">{note.content}</p>
-          <div className="pointer-events-none absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-secondary/30 to-black/0" />
+          <div className="pointer-events-none absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-secondary/25 to-black/0" />
         </Dialog.Trigger>
 
         <Dialog.Portal>
@@ -49,7 +49,7 @@ export default function NoteCards({ note, onNoteDeleted }: NoteCardProps) {
               </div>
 
               <button
-                className="group bg-destructive dark:bg-red-500 py-4 text-center text-white border-2 border-secondary rounded-b-lg tracking-wide text-sm outline-none transition-all delay-150 duration-150 ease-in-out hover:bg-red-600 dark:hover:bg-red-600 rounded-t-sm"
+                className="group bg-destructive dark:bg-red-500 py-4 text-center text-white border-2 border-secondary rounded-b-lg tracking-wide text-sm outline-none transition-all delay-150 duration-150 ease-in-out hover:bg-red-600 dark:hover:bg-red-600 rounded-t-sm focus-visible:border-foreground"
                 type="button"
                 onClick={() => onNoteDeleted(note.id)}
               >

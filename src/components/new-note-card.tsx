@@ -97,7 +97,7 @@ export default function NewNoteCard({ onNoteCreated }: NewNoteCardPros) {
               <Dialog.Close>
                 <X
                   size={16}
-                  className="h-8 w-8 rounded-full p-2 transition-all delay-150 duration-150 ease-in-out hover:bg-secondary"
+                  className="h-8 w-8 rounded-full p-2 transition-all delay-150 duration-150 ease-in-out hover:bg-muted-foreground"
                 />
               </Dialog.Close>
             </div>
@@ -145,7 +145,7 @@ export default function NewNoteCard({ onNoteCreated }: NewNoteCardPros) {
               ) : (
                 <button
                   onClick={handleSaveNote}
-                  className="w-full bg-primary py-4 text-center text-sm font-bold tracking-wider text-white outline-none transition-all delay-150 duration-150 ease-in-out hover:bg-blue-700 border-2 border-secondary rounded-b-lg rounded-t-sm"
+                  className="w-full bg-primary py-4 text-center text-sm font-bold tracking-wider text-white outline-none transition-all delay-150 duration-150 ease-in-out hover:bg-green-700 border-2 border-secondary rounded-b-lg rounded-t-sm focus-visible:border-foreground"
                   type="button"
                 >
                   Salvar nota
