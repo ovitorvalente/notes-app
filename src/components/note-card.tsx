@@ -27,7 +27,7 @@ export default function NoteCards({ note, onNoteDeleted }: NoteCardProps) {
 
         <Dialog.Portal>
           <Dialog.Overlay className="fixed inset-0 bg-black/50">
-            <Dialog.Content className="fixed left-1/2 top-1/2 flex h-4/5 w-full max-w-xl -translate-x-1/2 -translate-y-1/2 flex-col overflow-hidden rounded-lg bg-secondary outline-none max-md:max-w-md">
+            <Dialog.Content className="fixed left-1/2 top-1/2 flex h-4/5 w-full max-w-xl -translate-x-1/2 -translate-y-1/2 flex-col overflow-hidden rounded-lg bg-secondary outline-none max-md:h-full max-md:rounded-none">
               <div className="flex flex-1 flex-col gap-3 p-5">
                 <div className="flex items-center justify-between">
                   <span className="text-md font-medium text-foreground">
