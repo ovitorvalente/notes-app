@@ -37,5 +37,17 @@
     "prettier-plugin-tailwindcss": "^0.5.11",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
-  }
+  },
+  "description": "**Noom Notes** é um site de anotações moderno e intuitivo, desenvolvido para simplificar sua organização. Com suporte a transcrição por áudio e armazenamento local, suas ideias estarão sempre acessíveis, sem a necessidade de servidores externos ou conexões com a nuvem.",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ovitorvalente/notes-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ovitorvalente/notes-app/issues"
+  },
+  "homepage": "https://github.com/ovitorvalente/notes-app#readme"
 }

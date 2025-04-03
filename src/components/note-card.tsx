@@ -1,16 +1,16 @@
-"use client"
-import * as Dialog from "@radix-ui/react-dialog"
-import { formatDistanceToNow } from "date-fns"
-import { pt, ptBR } from "date-fns/locale"
-import { X } from "lucide-react"
+"use client";
+import * as Dialog from "@radix-ui/react-dialog";
+import { formatDistanceToNow } from "date-fns";
+import { pt, ptBR } from "date-fns/locale";
+import { X } from "lucide-react";
 
 interface NoteCardProps {
   note: {
-    id: string
-    date: Date
-    content: string
-  }
-  onNoteDeleted: (id: string) => void
+    id: string;
+    date: Date;
+    content: string;
+  };
+  onNoteDeleted: (id: string) => void;
 }
 
 export default function NoteCards({ note, onNoteDeleted }: NoteCardProps) {
@@ -64,5 +64,5 @@ export default function NoteCards({ note, onNoteDeleted }: NoteCardProps) {
         </Dialog.Portal>
       </Dialog.Root>
     </>
-  )
+  );
 }

@@ -73,7 +73,6 @@
   animation: fadeInAndSlideUp 1s ease-in-out;
 }
 
-/* Works on Chrome, Edge, and Safari */
 .notes-scrollbar::-webkit-scrollbar {
   width: 8px;
   margin: 8px;
