@@ -1,11 +1,13 @@
 # 📝 Noom Notes
 
-## 📖 Sobre o Noom Notes
+<br/>
 
+## 📖 Sobre o Noom Notes
 **Noom Notes** é um site de anotações moderno e intuitivo, desenvolvido para simplificar sua organização. Com suporte a transcrição por áudio e armazenamento local, suas ideias estarão sempre acessíveis, sem a necessidade de servidores externos ou conexões com a nuvem.
 
-## 🚀 Funcionalidades
+<br/>
 
+## 🚀 Funcionalidades
 ✅ **Criação e edição de notas** - Registre e edite suas ideias de forma rápida e prática.
 
 🎙 **Transcrição por áudio** - Utilize reconhecimento de fala para converter sua voz em texto automaticamente.
@@ -15,6 +17,8 @@
 🔍 **Busca eficiente** - Localize rapidamente suas anotações com a função de pesquisa integrada.
 
 🎨 **Interface responsiva e minimalista** - Design limpo e intuitivo para uma melhor experiência do usuário.
+
+<br/>
 
 ## 🛠 Tecnologias Utilizadas
 
@@ -30,20 +34,23 @@
 
 - **LocalStorage** - Armazenamento local das notas no navegador para acesso contínuo.
 
-## 🚀 Como Usar
+<br/>
 
+## 🚀 Como Usar
 1. **Abra o Noom Notes** em seu navegador favorito.
 2. **Crie uma nova nota** digitando ou utilizando a função de transcrição por áudio.
 3. **Edite, exclua e organize suas anotações** de maneira simples e eficiente.
 4. **Utilize a busca** para encontrar rapidamente qualquer nota armazenada.
 
-## 🖥 Requisitos
+<br/>
 
+## 🖥 Requisitos
 - Navegador moderno compatível com **Web Speech API** (Chrome, Edge, Firefox, etc.).
 - Permissão de acesso ao microfone para transcrição de voz.
 
-## 🖥 Como Rodar o Projeto
+<br/>
 
+## 🖥 Como Rodar o Projeto
 Se deseja rodar o **Noom Notes** localmente, siga os passos abaixo:
 
 1️⃣ **Clone o repositório para sua máquina**
@@ -101,8 +108,9 @@ pnpm dev
 5️⃣ **Acesse o aplicativo**  
 Abra [http://localhost:3000](http://localhost:3000) no seu navegador para visualizar o Noom Notes em ação.
 
-## 🏗 Contribuindo com o Projeto
+<br/>
 
+## 🏗 Contribuindo com o Projeto
 Gostaria de ajudar a melhorar o **Noom Notes**? Veja como:
 
 1. **Faça um fork** do repositório.
@@ -111,8 +119,9 @@ Gostaria de ajudar a melhorar o **Noom Notes**? Veja como:
 4. **Faça o push** para sua branch (`git push origin minha-feature`).
 5. **Abra um Pull Request** e aguarde a revisão da comunidade.
 
-## 📜 Licença
+<br/>
 
+## 📜 Licença
 Este projeto está sob a licença **MIT**, permitindo seu uso, modificação e distribuição sem restrições.
 
 ---
